@@ -36,7 +36,14 @@
   <button id="colorize">Add a sparkle of color (also free)</button>
 </div>
 
-<div style="position: absolute; padding: 30px;"> This project is driven by the injustice that people with long hair have to face when creating a 3D model of their own face </div>
+<div style="position: absolute; padding: 30px; @media (max-width: 480px) {{
+        position: absolute; 
+        top: 0;
+        left: 50%;          
+        transform: translateX(-50%);
+        margin: 10px 0; 
+    }
+}"> This project is driven by the injustice that people with long hair have to face when creating a 3D model of their own face </div>
 
   </body>
 </html>
