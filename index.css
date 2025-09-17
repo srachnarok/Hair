@@ -22,4 +22,44 @@
      #uibottom {
       position: absolute; bottom: 170px; z-index:10;
       display:flex; gap:8px; flex-direction:column;
+
     }
+
+@media (max-width: 480px) {
+    #uitop {
+        bottom: 150px;
+        gap: 6px;
+    }
+    #uibottom {
+        bottom: 90px;
+        gap: 6px;
+    }
+    button {
+        padding: 8px 12px;
+        font-size: 14px;
+    }
+    div[style] {
+        font-size: 12px;
+        padding: 15px;
+    }
+}
+
+
+@media (min-width: 481px) and (max-width: 768px) {
+    #uitop {
+        bottom: 200px;
+        gap: 7px;
+    }
+    #uibottom {
+        bottom: 150px;
+        gap: 7px;
+    }
+    button {
+        padding: 9px 13px;
+        font-size: 15px;
+    }
+    div[style] {
+        font-size: 13px;
+        padding: 20px;
+    }
+}
