@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Testa 3D + Capelli Random</title>
+
+   <link rel="stylesheet" href="index.css">
+
+
+    <script type="importmap">
+      {
+          "imports": {
+              "three": "https://cdn.jsdelivr.net/npm/three@0.161.0/build/three.module.js",
+              "jsm/": "https://cdn.jsdelivr.net/npm/three@0.161.0/examples/jsm/",
+              "three/examples/jsm/controls/OrbitControls.js": "./libs/examples/jsm/controls/OrbitControls.js",
+        "three/examples/jsm/loaders/GLTFLoader.js": "./libs/examples/jsm/loaders/GLTFLoader.js"
+          }
+      }
+      </script>      
+  </head>
+
+
+  <body>
+    <script type="module" src="index.js"></script>
+
+
+<div id="canvas-container">
+
+
+  <div id="uitop">
+    <button id="random">Donate hair (free)</button>
+</div>  
+
+<div id="uibottom">
+  <button id="colorize">Add a sparkle of color (also free)</button>
+</div>
+
+<div style="position: absolute; padding: 30px;"> This project is driven by the injustice that people with long hair have to face when creating a 3D model of their own face </div>
+
+  </body>
+</html>
